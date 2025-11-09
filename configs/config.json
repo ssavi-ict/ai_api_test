@@ -1,0 +1,16 @@
+{
+  "apis": [
+    {
+      "name": "Get Post by ID",
+      "endpoint": "https://jsonplaceholder.typicode.com/posts/1",
+      "expected_status": 200,
+      "required_fields": ["userId", "id", "title", "body"]
+    },
+    {
+      "name": "List All Posts",
+      "endpoint": "https://jsonplaceholder.typicode.com/posts",
+      "expected_status": 200
+    }
+  ],
+  "openai_api_key": "openai_api_key"
+}

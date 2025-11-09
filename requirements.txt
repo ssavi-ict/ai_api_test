@@ -1,0 +1,4 @@
+pytest
+requests
+openai>=1.0.0
+pyyaml
